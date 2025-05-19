@@ -1,7 +1,7 @@
 package za.ac.cput.domain;
-/* Employee.java
+/* User.java
 
-     AdminFactory POJO class
+     Admin POJO class
 
      Author: T.Malifethe (222602511)
 

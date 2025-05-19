@@ -1,9 +1,9 @@
 package za.ac.cput.domain;
 
 import java.util.Objects;
-/* Employee.java
+/* Admin.java
 
-     AdminFactory POJO class
+     Admin POJO class
 
      Author: T.Malifethe (222602511)
 
