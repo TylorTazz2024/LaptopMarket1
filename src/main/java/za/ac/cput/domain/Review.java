@@ -47,6 +47,7 @@ public class Review {
             return this;
         }
 
+
         public Builder setRating(String rating) {
             this.rating = rating;
             return this;
