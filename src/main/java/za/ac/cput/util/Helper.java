@@ -2,7 +2,6 @@ package za.ac.cput.util;
 
 public class Helper {
 
-    y
     public static boolean isNullOrEmpty(String str) {
         return str == null || str.trim().isEmpty();
     }
