@@ -32,19 +32,15 @@ class AdminFactoryTest {
 
     @Test
     void createAdmin() {
-        // Test valid admin
         assertNotNull(validAdmin);
         System.out.println("✅ Created Admin: " + validAdmin);
 
-        // Test with null adminID
         assertNull(nullIdAdmin);
         System.out.println("❌ Should fail (null adminID): " + nullIdAdmin);
 
-        // Test with empty staff number
         assertNull(emptyStaffNumberAdmin);
         System.out.println("❌ Should fail (empty staff number): " + emptyStaffNumberAdmin);
 
-        // Test with empty department
         assertNull(emptyDepartmentAdmin);
         System.out.println("❌ Should fail (empty department): " + emptyDepartmentAdmin);
     }
